@@ -15,14 +15,14 @@ class NormaliserImplTest {
     List<String> jobList = Arrays.asList("Software engineer", "Accountant", "Quantity surveyor", "Architect");
 
     @Test
-    @DisplayName("Checking if the function is inserting in the list")
+    @DisplayName("Checking if the function is inserting values into the list")
     void setJobList() {
         normaliserImpl.setJobList(jobList);
         assertEquals("Accountant",jobList.get(1));
     }
 
     @Test
-    @DisplayName("Checking the Normalize function")
+    @DisplayName("Checking the Normalise function")
     public void normalise() {
         normaliserImpl.setJobList(jobList);
         String normalisedTitle = normaliserImpl.normalise("Java engineer");
