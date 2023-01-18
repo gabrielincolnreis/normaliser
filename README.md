@@ -1,5 +1,6 @@
 <h1 align="center">Normaliser</h1>
-<p align="center">A simple project that in there main function using the normalization function to find the word more closer than others in the data base</p>
+<p>A simple project that uses a normalisation class to find the word (could be from a database or a configuration file) closer than the one inserted by the user</p>
+
 <ul>
   <li>Java 17</li>
   <li>JUnit as the testing tool</li>
